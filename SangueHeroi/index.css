@@ -34,7 +34,7 @@ body{
     flex-direction: row;
     padding: 80px;
     margin-top: 100px;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -45,11 +45,13 @@ body{
 }
 
 .container_text > p {
-    font-size: 12px;
-    width: 40%;
+    font-size: 18px;
     font-family: "Rowdies", sans-serif;
 }
-
+.container_text h2 {
+    font-weight: 400;
+    width: 70%;
+}
 .container_text > button {
     font-size: 12px;
     margin-top: 10px;
@@ -65,4 +67,37 @@ body{
 .container_home > img {
     width: 400px;
     height: 400px;
+}
+
+.container {
+    display: flex;
+}
+
+.text-container {
+    flex: 1;
+    padding: 20px;
+}
+
+  .carousel-container {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between; 
+    margin-left: 500px; 
+    padding: 20px;
+}
+
+.carousel-list {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+span {
+    color: red;
+    font-weight: 100;
 }

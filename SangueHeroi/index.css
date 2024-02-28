@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+body{
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 30px;
+    color: white;
+    font-family: "Rowdies", sans-serif;
+}
+
+.container_navbar{
+    display: flex;
+    justify-content: flex-end;
+    background-color: red;
+    padding: 0px;
+}
+
+.container_home{
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+    margin-top: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container_text{
+    font-size: 22px;
+    width: 40%;
+    font-family: "Rowdies", sans-serif;
+}
+
+.container_text > p {
+    font-size: 12px;
+    width: 40%;
+    font-family: "Rowdies", sans-serif;
+}
+
+.container_text > button {
+    font-size: 12px;
+    margin-top: 10px;
+    gap: 20px;
+    width: 40%;
+    font-family: "Rowdies", sans-serif;
+}
+
+.container_text > button .acesseInstagram {
+    text-decoration: none;
+}
+
+.container_home > img {
+    width: 400px;
+    height: 400px;
+}

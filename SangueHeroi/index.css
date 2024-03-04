@@ -1,14 +1,15 @@
 /*Klayvem Guimarães*/
-/*Lucas Felipe*/
+/*Lucas Phelipe*/
 /*Rodrigo Pereira Lopes*/
 /*Rafaela*/
 /*Cynthia Grayt*/
-/*Bruno Sicero*/
+/*Bruno Cicero*/
 
 @import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
 
 body{
     margin: 0px;
+    zoom: 75%;
 }
 
 .navbar {
@@ -24,16 +25,25 @@ body{
 
 .container_navbar{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
     background-color: red;
     padding: 0px;
+    height: 95px;
+    cursor: pointer;
+}
+
+.container_navbar > img {
+    max-width: 80px;
+    border-radius: 300px;
+    margin-left: 10px;
 }
 
 .container_home{
     display: flex;
     flex-direction: row;
     padding: 80px;
-    margin-top: 100px;
+    margin-top: 90px;
     justify-content: space-between;
     align-items: center;
 }
@@ -53,10 +63,16 @@ body{
     width: 70%;
 }
 .container_text > button {
-    font-size: 12px;
+    background-color: #E40A0A;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
     margin-top: 10px;
     gap: 20px;
     width: 40%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
     font-family: "Rowdies", sans-serif;
 }
 
@@ -78,7 +94,8 @@ body{
     padding: 20px;
 }
 
-  .carousel-container {
+/*--Carrossel--*/
+.carousel-container {
     flex: 1;
     overflow: hidden;
     display: flex;
@@ -87,7 +104,21 @@ body{
     padding: 20px;
 }
 
+.carousel-container-end {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between; 
+    margin-left: 30px; 
+    padding: 20px;
+}
+
 .carousel-list {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-list2 {
     display: flex;
     transition: transform 0.5s ease-in-out;
 }
@@ -100,4 +131,115 @@ body{
 span {
     color: red;
     font-weight: 100;
+}
+/*----*/
+
+/*---MIDDLE - MEIO----*/
+.container_middle {
+    background-image: linear-gradient(120deg,#E40A0A, #3B0000);
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    height: 620px;
+}
+
+.container_text_middle {
+    font-size: 22px;
+    width: 40%;
+    font-family: "Rowdies", sans-serif;
+    color: white;
+}
+
+.container_text_middle > button {
+    background-color: white;
+    color: #E40A0A;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+    gap: 20px;
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Rowdies", sans-serif;
+    cursor: pointer;
+} 
+
+.leque { /*leque de imagens do protótipo*/
+    margin-top: 200px;
+    position: relative;
+    width: 900px; 
+    height: 200px;
+}
+  
+.leque img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) ;
+    transition: 0.3s ease-in-out;
+    border-radius: 20px;
+}
+
+
+.leque img:nth-child(1) {
+    transform: translateX(-50%) translateY(-50%) rotate(0deg) scale(0.7);
+}
+  
+.leque img:nth-child(2) {
+    transform: translateX(-25%) translateY(-49%) rotate(20deg) scale(0.7);
+}
+  
+.leque img:nth-child(3) {
+    transform: translateX(0%) translateY(-43%) rotate(35deg) scale(0.7);
+}
+
+/*------------*/
+
+.container_end {    
+    display: flex;
+    flex-direction: row;
+    padding: 80px;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    height: 620px;
+}
+
+/*--------------*/
+
+.container_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    color: white;
+    height: 120px;
+    padding: 20px;
+}
+
+.container_footer p, .container_footer a{
+    margin: 0;
+    font-family: "Rowdies", sans-serif;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.middle {
+    text-align: center;
+}
+
+.fa-2x i {
+    padding: 10px;
 }

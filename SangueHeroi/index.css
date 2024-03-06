@@ -27,7 +27,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: red;
+    background-color: #E40A0A;
     padding: 0px;
     height: 95px;
     cursor: pointer;
@@ -74,6 +74,7 @@ body{
     border-radius: 10px;
     border: none;
     font-family: "Rowdies", sans-serif;
+    cursor: pointer;
 }
 
 .container_text > button .acesseInstagram {
@@ -100,7 +101,7 @@ body{
     overflow: hidden;
     display: flex;
     justify-content: space-between; 
-    margin-left: 500px; 
+    margin-left: 300px; 
     padding: 20px;
 }
 
@@ -110,6 +111,7 @@ body{
     display: flex;
     justify-content: space-between; 
     margin-left: 30px; 
+    margin-right: 100px;
     padding: 20px;
 }
 
@@ -126,6 +128,9 @@ body{
 .carousel-item {
     min-width: 100%;
     box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 span {
@@ -215,7 +220,7 @@ span {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: red;
+    background-color: #E40A0A;
     color: white;
     height: 120px;
     padding: 20px;
@@ -224,6 +229,8 @@ span {
 .container_footer p, .container_footer a{
     margin: 0;
     font-family: "Rowdies", sans-serif;
+    text-decoration: none;
+    color: white;
 }
 
 .left, .right {
@@ -242,4 +249,13 @@ p {
 
 .fa-2x i {
     padding: 10px;
+}
+
+#botaoSaibaMais {
+    width: 300px;
+    height: 60px;
+}
+
+.container_navbar > img{
+    margin-left: 80px;
 }

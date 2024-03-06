@@ -259,3 +259,48 @@ p {
 .container_navbar > img{
     margin-left: 80px;
 }
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .container_home,
+    .container_middle,
+    .container_end,
+    .container_footer {
+        padding: 10px;
+    }
+
+    .container_text {
+        margin-left: 100px;
+    }
+
+    .container_text > button {
+        max-width: none;
+        width: 100%;
+    }
+
+    .leque img {
+        width: 30%;
+    }
+    .container_text_middle {
+        margin-left: 100px;
+    }
+
+    .container_text_middle > p{
+        font-size: 20px;
+    }
+
+    .container_text_middle > button {
+        font-size: 12px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .carousel-container {
+        width: 40%;
+    }
+
+}

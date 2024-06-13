@@ -1,0 +1,16 @@
+.container_sobre {
+    padding: 20px;
+    text-align: center;
+}
+
+.container_sobre h1 {
+    color: #333;
+}
+
+.container_sobre p {
+    color: #666;
+}
+
+.container_sobre a {
+    color: blue;
+}

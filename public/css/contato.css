@@ -1,0 +1,16 @@
+.container_contato {
+    padding: 20px;
+    text-align: center;
+}
+
+.container_contato h1 {
+    color: #333;
+}
+
+.container_contato p {
+    color: #666;
+}
+
+.container_contato a {
+    color: blue;
+}

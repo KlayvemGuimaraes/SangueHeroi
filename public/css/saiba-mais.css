@@ -1,0 +1,16 @@
+.container_saibamais {
+    padding: 20px;
+    text-align: center;
+}
+
+.container_saibamais h1 {
+    color: #333;
+}
+
+.container_saibamais p {
+    color: #666;
+}
+
+.container_saibamais a {
+    color: blue;
+}
